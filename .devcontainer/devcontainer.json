@@ -1,0 +1,11 @@
+{
+  "name": "Docker Dev",
+  "dockerFile": "../Dockerfile",
+  "appPort": [5000],
+  "postCreateCommand": "pip install flask",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"]
+    }
+  }
+}
